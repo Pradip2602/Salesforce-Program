@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Simple Calculator">
+        <div class="slds-box slds-theme_shade">
+            <lightning-input type="number" value={firstNumber} label="Number 1" onchange={onChangeHandle}>
+            </lightning-input>
+            <lightning-input type="number" value={secondNumber} label="Number 2" onchange={changeHandler}>
+            </lightning-input>
+            <b>Output:</b>
+            <p>{resultvalue}</p>
+        </div>
+        <div>
+            <lightning-button label="Add" onclick={add}></lightning-button>
+            <lightning-button label="Substract" onclick={substract}></lightning-button>
+            <lightning-button label="Multiply" onclick={multiply}></lightning-button>
+            <lightning-button label="Divide" onclick={divide}></lightning-button>
+        </div>
+    </lightning-card>
+</template>

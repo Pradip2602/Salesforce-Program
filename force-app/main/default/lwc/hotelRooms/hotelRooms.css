@@ -1,0 +1,14 @@
+li{
+    margin:20px;
+}
+h1{
+    border: solid 3px navy;
+    background-color: gray;
+    color:yellow;
+    font-size: xx-large;
+}
+p{
+    font-size: x-large;
+    color:maroon;
+    background-color: peachpuff;
+}

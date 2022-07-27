@@ -1,0 +1,165 @@
+<aura:component>
+    <div class="slds-grid">
+        <div class="slds-col">Column 1</div>
+
+        <div class="slds-col">Column 2</div>
+
+        <div class="slds-col">Column 3</div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid slds-grid_reverse">
+        <div class="slds-col">Column 1</div>
+
+        <div class="slds-col">Column 2</div>
+
+        <div class="slds-col">Column 3</div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid slds-grid_vertical">
+        <div class="slds-col">Column 1</div>
+
+        <div class="slds-col">Column 2</div>
+
+        <div class="slds-col">Column 3</div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid slds-grid_vertical-reverse">
+        <div class="slds-col">Column 1</div>
+
+        <div class="slds-col">Column 2</div>
+
+        <div class="slds-col">Column 3</div>
+    </div>
+
+    <br />
+
+    <!-- You can have up to 12 columns in your grid. -->
+
+    <div class="slds-grid">
+        <div class="slds-col slds-size_4-of-6">Column 1</div>
+
+        <div class="slds-col slds-size_1-of-6">Column 2</div>
+
+        <div class="slds-col slds-size_1-of-6">Column 3</div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid">
+        <div class="slds-col slds-size_8-of-12">Column 1</div>
+
+        <div class="slds-col slds-size_2-of-12">Column 2</div>
+
+        <div class="slds-col slds-size_2-of-12">Column 3</div>
+    </div>
+
+    <!-- you may choose to write slds-size_1-of-2 or slds-size_6-of-12,
+
+both outcomes are the same.-->
+
+    <div class="slds-grid">
+        <div class="slds-col">
+            <span>1</span>
+        </div>
+
+        <div class="slds-col">
+            <span>2</span>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col">
+            <span>1</span>
+        </div>
+
+        <div class="slds-col">
+            <span>2</span>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid slds-gutters_large">
+        <div class="slds-col">
+            <span>1</span>
+        </div>
+
+        <div class="slds-col">
+            <span>2</span>
+        </div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid">
+        <div class="slds-col">Column A</div>
+
+        <div class="slds-col">Column B</div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid">
+        <div class="slds-col slds-small-size_1-of-2 slds-medium-size_3-of-4">
+            Column A
+        </div>
+
+        <div class="slds-col slds-small-size_1-of-2 slds-medium-size_1-of-4">
+            Column B
+        </div>
+    </div>
+
+    <br />
+
+    <div class="slds-grid slds-wrap">
+        <div class="slds-col slds-size_8-of-12">
+            <span>column 8-12</span>
+        </div>
+
+        <div class="slds-col slds-size_4-of-12">
+            <span>column 4-12</span>
+        </div>
+
+        <div class="slds-col slds-size_5-of-12">
+            <span>column 5-12</span>
+        </div>
+    </div>
+
+    <br /><br />
+
+    <div class="slds-container_left slds-container_small">Content left small</div>
+
+    <div class="slds-container_center slds-container_small">
+        Content center small
+    </div>
+
+    <div class="slds-container_right slds-container_small">
+        Content right small
+    </div>
+
+    <div class="slds-container_left slds-container_medium">
+        Content left medium
+    </div>
+
+    <div class="slds-container_center slds-container_medium">
+        Content center medium
+    </div>
+    <div class="slds-container_right slds-container_medium">
+        Content right medium
+    </div>
+    <div class="slds-container_left slds-container_large">Content left large</div>
+    <div class="slds-container_center slds-container_large">
+        Content center large
+    </div>
+    <div class="slds-container_right slds-container_large">
+        Content right large
+    </div>
+</aura:component>

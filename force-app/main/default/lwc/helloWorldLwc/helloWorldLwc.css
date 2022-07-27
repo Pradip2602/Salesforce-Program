@@ -1,0 +1,13 @@
+p {
+    color: indigo;
+    background-color: aqua;
+    font-size: xx-large;
+}
+
+
+/* to the whole template */
+:host {
+    color: maroon;
+    font-size: xx-large;
+    font-style: italic;
+}

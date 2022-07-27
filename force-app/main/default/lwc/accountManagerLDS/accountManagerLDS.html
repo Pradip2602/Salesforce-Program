@@ -1,0 +1,33 @@
+<template>
+    <lightning-card title="Accoun t Manager!">
+        <lightning-layout>
+            <lightning-layout-item size="6" padding="around-small">
+                <lightning-card title="Create Account Record!">
+                    <lightning-input name="Account Name" label="Name" type="text" onchange={accountNameChangeHandler}>
+                    </lightning-input>
+                    <lightning-input name="Account Phone" label="Phone" type="Phone"
+                        onchange={accountPhoneChangeHandler}>
+                    </lightning-input>
+                    <lightning-input name="Account Website" label="Website" type="url"
+                        onchange={accountWebsiteChangeHandler}>
+                    </lightning-input>
+                    <lightning-button label="Create Account!" onclick={createAccount} variant="brand">
+                    </lightning-button>
+                </lightning-card>
+            </lightning-layout-item>
+            <lightning-layout-item size="6" padding="around-small">
+                <lightning-card title="View Account Record!">
+                    <p>
+                        <lightning-formatted-text value={retAccountName}></lightning-formatted-text>
+                    </p>
+                    <p>
+                        <lightning-formatted-phone value={retAccountPhone}></lightning-formatted-phone>
+                    </p>
+                    <p>
+                        <lightning-formatted-url value={retAccountWebsite}></lightning-formatted-url>
+                    </p>
+                </lightning-card>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

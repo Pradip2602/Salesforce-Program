@@ -1,0 +1,7 @@
+<template>
+    <lightning-card title="Life Cycle Hooks">
+        <lightning-input type="checkbox" label="ShowChild" onchange={handleChange}></lightning-input>
+        <br />
+        <c-lifecycle-demo-child if:true={show}></c-lifecycle-demo-child>
+    </lightning-card>
+</template>

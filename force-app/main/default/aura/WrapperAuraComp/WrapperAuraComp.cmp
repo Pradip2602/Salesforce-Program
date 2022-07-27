@@ -1,0 +1,7 @@
+<aura:component implements="lightning:isUrlAddressable">
+
+    <p>Outer Lightning Aura Component with isUrlAddressable.</p>
+
+    <c:childLwcComp />
+
+</aura:component>

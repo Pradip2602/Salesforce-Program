@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="Greeting Card">
+        <lightning-layout>
+            <lightning-layout-item size="8" padding="around-small">
+                <div class="slds-m-around_medium">
+                    <p>Hello {greeting}!</p>
+                    <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+                </div>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

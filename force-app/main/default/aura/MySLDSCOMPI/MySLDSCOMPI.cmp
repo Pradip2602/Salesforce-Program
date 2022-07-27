@@ -1,0 +1,107 @@
+<aura:component >
+	<!-- <table style="width:50%;border='1'"> -->
+
+<!-- <table class="slds-table slds-table_bordered"> -->
+
+<div>
+
+<table class="slds-table slds-table_bordered slds-table_striped">
+
+<thead>
+
+<th>FirstName</th>
+
+<th>LastName</th>
+
+<th>Age</th>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Sachin</td>
+
+<td>Tendulkar</td>
+
+<td>45</td>
+
+</tr>
+
+<tr>
+
+<td>Rahul</td>
+
+<td>Dravid</td>
+
+<td>46</td>
+
+</tr>
+
+<tr>
+
+<td>Sourav</td>
+
+<td>Ganguly</td>
+
+<td>46</td>
+
+</tr>
+
+<tr>
+
+<td>Mahendra Singh</td>
+
+<td>Dhoni</td>
+
+<td>37</td>
+
+</tr>
+
+<tr>
+
+<td>Virat</td>
+
+<td>Kohli</td>
+
+<td>30</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<br/><br/>
+
+<div class="slds-form-element">
+
+<label class="slds-checkbox_toggle slds-grid">
+
+<span class="slds-form-element__label slds-m-bottom_none">Toggle Label</span>
+
+<input name="checkbox-toggle-2" type="checkbox"
+
+aria-describedby="checkbox-toggle-2"
+
+value="checkbox-toggle-2" />
+
+<span id="checkbox-toggle-2" class="slds-checkbox_faux_container"
+
+aria-live="assertive">
+
+<span class="slds-checkbox_faux"></span>
+
+<span class="slds-checkbox_on">Enabled</span>
+
+<span class="slds-checkbox_off">Disabled</span>
+
+</span>
+
+</label>
+
+</div>
+
+</div>
+</aura:component>

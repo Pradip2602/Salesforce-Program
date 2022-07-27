@@ -1,0 +1,26 @@
+<template>
+   <lightning-card title="Conditional Rendering and Iteration">
+      <lightning-input type='checkbox' label="Show Div!" onchange={showDivHandler}></lightning-input>
+      <template if:true={displayDiv}>
+         <div>
+            I am here!
+         </div>
+      </template>
+      <br /><br />
+      <!-- for:each directive -->
+      <template for:each={cityList} for:item="city">
+         <p key={city}>{city}</p>
+      </template>
+      <br /><br />
+      <!-- iterator has some advantages over for:each
+    You can identify first and last element from a list just by using
+    'it' variable.
+    Iterator can be useful if you want to apply special rendering on your elements dynamically
+    basedon their index.
+    It has few more useful properties like it.first,it.last and it.index
+    -->
+      <template iterator:it={cityList}>
+         <p key={it.value}>{it.value} {it.index} {it.first} {it.last}</p>
+      </template>
+   </lightning-card>
+</template>

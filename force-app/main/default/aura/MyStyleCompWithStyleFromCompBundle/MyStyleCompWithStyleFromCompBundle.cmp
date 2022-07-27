@@ -1,0 +1,17 @@
+<aura:component >
+	
+    <h3>Using STYLE Tab in Component Bundle! - Standard Way! </h3>
+
+<div class='divCSS'>
+
+	<h1>Hello People! </h1>
+
+	<p>This is sample HTML paragraph element inside HTML div element! </p>
+
+</div>
+
+<br/>
+
+	<p>Outer paragraph with <span> Inner span Element! </span></p>
+    
+</aura:component>

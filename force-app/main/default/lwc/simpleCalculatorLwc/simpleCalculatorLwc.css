@@ -1,0 +1,10 @@
+p{
+    color: green;
+    background-color: peachpuff;
+}
+
+:host{
+    font-size: x-large;
+    color: maroon;
+    background-color: aqua;
+}

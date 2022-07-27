@@ -1,0 +1,23 @@
+<aura:component >
+	
+    
+<!-- Using $Resource lets you reference assets by name, without worrying about the explicit
+details of URLs or file paths.
+You can use $Resource in Aura component mark-up and within
+JavaScript controller and helper code -->
+
+<!-- <ltng:require styles="{!$Resource.myStyles}" /> <ltng:require styles="{!$Resource.JustStyles}" /> -->
+
+<ltng:require styles="{!$Resource.myStyles}" />
+
+<h3>Using External StyleSheet!</h3>
+<p id='para1'>This is simple paragraph!</p>
+<br/>
+<div class='divClass'>
+This is div Text with divClass style csss class, which
+is coming from external css file.
+</div>
+<p class='divClass'>
+Paragraph with css class divClass!
+</p>
+</aura:component>

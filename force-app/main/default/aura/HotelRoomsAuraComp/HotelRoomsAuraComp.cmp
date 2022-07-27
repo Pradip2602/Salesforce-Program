@@ -1,0 +1,42 @@
+<aura:component implements="flexipage:availableForAllPageTypes">
+
+    <aura:attribute name="hotelRoomsInfo" type="List" />
+
+    <aura:attribute name="selectedHotelRoom" type="String" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <lightning:card title="Hotel Rooms Aura!">
+
+        <lightning:layout>
+
+            <lightning:layoutItem size="4" padding="around-small">
+
+                <ul>
+
+                    <aura:iteration items="{!v.hotelRoomsInfo}" var="item">
+
+                        <li style="padding:10px">
+
+                            <c:hotelRoom hotelRoomInfo='{#item}' showRoomInfo="true" ntileclick="{!c.handleTileClick}">
+                            </c:hotelRoom>
+
+                        </li>
+
+                    </aura:iteration>
+
+                </ul>
+
+            </lightning:layoutItem>
+
+            <lightning:layoutItem size="8" padding="around-small">
+
+                <h1>You have selected {!v.selectedHotelRoom}!!</h1>
+
+            </lightning:layoutItem>
+
+        </lightning:layout>
+
+    </lightning:card>
+
+</aura:component>

@@ -1,0 +1,9 @@
+<template>
+    <lightning-card title="Greeting!">
+        <lightning-input type="radio" name="Greeting" label="Mr." value={value1} onclick={onClickOne}></lightning-input>
+        <lightning-input type="radio" name="Greeting" label="Mrs." value={value2} onclick={onClickTwo}></lightning-input>
+            <slot>
+                 {value1} Kiran!
+            </slot>
+    </lightning-card>
+</template>

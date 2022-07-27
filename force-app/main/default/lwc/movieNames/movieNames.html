@@ -1,0 +1,14 @@
+<template>
+<lightning-card title="Movie List!"></lightning-card>
+<lightning-layout>
+    <lightning-layout-item size="8" padding="around-small">
+        <ul>
+            <template for:each={showMovieInfo} for:item="movie">
+                <li key={movie.movieName} style="padding:10px">
+                    <c-movies movie-info={movie} show-movie-info></c-movies>
+                </li>
+            </template>
+        </ul>
+    </lightning-layout-item>
+</lightning-layout>
+</template>

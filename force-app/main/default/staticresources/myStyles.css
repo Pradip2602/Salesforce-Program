@@ -1,0 +1,20 @@
+	body{
+			padding:100px;
+	}
+
+	h3{
+			color:indigo;
+			background-color:aqua;
+			font-size:xx-large;
+	}
+
+	#para1{
+			font-size:20px;
+			color:red;
+			background-color:peachpuf;
+	}
+
+	.divClass{
+			color:yellow;
+			background-color:green;
+	}

@@ -1,0 +1,19 @@
+<template>
+
+    <h1>Todo Items</h1>
+
+    <ul style="background-color:white;color:maroon">
+
+        <template for:each={todos} for:item="todo">
+
+            <li key={todo} style="padding:10px;">
+
+                <c-todo-item item-name={todo}></c-todo-item>
+
+            </li>
+
+        </template>
+
+    </ul>
+
+</template>

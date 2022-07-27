@@ -1,0 +1,18 @@
+<template>
+    <lightning-card title="Movies List!">
+        <lightning-layout>
+            <lightning-layout-item size="8" padding="around-p-medium">
+                <template if:true={showMovieInfo}>
+                    <div class="slds-p-around_medium">
+                        <lightning-tile label={showMovieInfo.movieName} >
+                            <p class="slds-truncate" >
+                                <span>Movie Name: {showMovieInfo.movieName}</span><br />
+                                <span>Movie Release date : {showMovieInfo.movieReleaseYear}</span>
+                            </p>
+                        </lightning-tile>
+                    </div>
+                </template>
+            </lightning-layout-item>
+        </lightning-layout>
+    </lightning-card>
+</template>

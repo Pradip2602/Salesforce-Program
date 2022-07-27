@@ -1,0 +1,10 @@
+<aura:component >
+	
+    <h3>Using Inline Styles</h3>
+	<br/>
+	<div style='background-color:black;margin:12px; padding:20px;width:350px'>
+	<p style="color:white;font-family:'Helvetica Bold'">White Text with Black Background!</p>
+	<p style="color:yellow;font-family:'Times New Roman'">Yellow Text with Black Background!</p>
+	</div>
+    
+</aura:component>
